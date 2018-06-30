@@ -1,0 +1,67 @@
+﻿html, body{
+    padding: 0px;
+    margin: 0px;
+    height: 100%;;
+}
+body{
+    background-color:#D8F7FF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+section{
+    display: grid;
+    grid-template-columns: 30% auto;
+}
+figure{
+    text-align: center;
+    background-color: #bbe2ed;
+    margin: 0PX;;
+}
+figure img{
+    max-width: 40%;
+}
+article{
+    padding: 2em;
+}
+h3{
+    font-size: 3em;
+    margin-top: 0px;
+}
+
+p{
+    line-height: 2em;
+}
+img{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 20px;
+}
+
+.entered{
+        -webkit-animation: roll-in-left 0.6s ease-out 200ms both;
+                animation: roll-in-left 0.6s ease-out 200ms both;
+}
+ @-webkit-keyframes roll-in-left {
+    0% {
+      -webkit-transform: translateX(-800px) rotate(-540deg);
+              transform: translateX(-800px) rotate(-540deg);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0) rotate(0deg);
+              transform: translateX(0) rotate(0deg);
+      opacity: 1;
+    }
+  }
+  @keyframes roll-in-left {
+    0% {
+      -webkit-transform: translateX(-800px) rotate(-540deg);
+              transform: translateX(-800px) rotate(-540deg);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0) rotate(0deg);
+              transform: translateX(0) rotate(0deg);
+      opacity: 1;
+    }
+  }
+  
